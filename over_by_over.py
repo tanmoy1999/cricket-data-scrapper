@@ -1,8 +1,3 @@
-#
-
-# https://hs-consumer-api.espncricinfo.com/v1/pages/match/balls/wagon?lang=en&filterMatchId=1388407
-# https://hs-consumer-api.espncricinfo.com/v1/pages/match/balls/wagon?lang=en&filterMatchId=1388407 ball by ball
-
 import requests
 import json
 import pandas as pd
