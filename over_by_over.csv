@@ -1,0 +1,93 @@
+inningNumber,overNumber,overRuns,overWickets,isComplete,totalBalls,totalRuns,totalWickets,bowlersId,bowlersName,requiredRunRate,remainingBalls
+0,1,7,0,True,6,7,0,64698,Kasun Rajitha,0,294
+0,2,3,0,True,12,10,0,101991,Maheesh Theekshana,0,288
+0,3,3,0,True,18,13,0,64698,Kasun Rajitha,0,282
+0,4,4,0,True,24,17,0,101991,Maheesh Theekshana,0,276
+0,5,8,0,True,30,25,0,64698,Kasun Rajitha,0,270
+0,6,6,0,True,36,31,0,61690,Dasun Shanaka,0,264
+0,7,12,0,True,42,43,0,64698,Kasun Rajitha,0,258
+0,8,1,0,True,48,44,0,61690,Dasun Shanaka,0,252
+0,9,4,0,True,54,48,0,105938,Matheesha Pathirana,0,246
+0,10,17,0,True,60,65,0,61690,Dasun Shanaka,0,240
+0,11,15,0,True,66,80,0,105938,Matheesha Pathirana,0,234
+0,12,2,1,True,72,82,1,102835,Dunith Wellalage,0,228
+0,13,8,0,True,78,90,1,105938,Matheesha Pathirana,0,222
+0,14,0,1,True,84,90,2,102835,Dunith Wellalage,0,216
+0,15,1,0,True,90,91,2,62760,Dhananjaya de Silva,0,210
+0,16,2,1,True,96,93,3,102835,Dunith Wellalage,0,204
+0,17,4,0,True,102,97,3,62760,Dhananjaya de Silva,0,198
+0,18,6,0,True,108,103,3,102835,Dunith Wellalage,0,192
+0,19,4,0,True,114,107,3,62760,Dhananjaya de Silva,0,186
+0,20,2,0,True,120,109,3,102835,Dunith Wellalage,0,180
+0,21,2,0,True,126,111,3,62760,Dhananjaya de Silva,0,174
+0,22,5,0,True,132,116,3,101991,Maheesh Theekshana,0,168
+0,23,2,0,True,138,118,3,62760,Dhananjaya de Silva,0,162
+0,24,5,0,True,144,123,3,101991,Maheesh Theekshana,0,156
+0,25,5,0,True,150,128,3,62760,Dhananjaya de Silva,0,150
+0,26,3,0,True,156,131,3,101991,Maheesh Theekshana,0,144
+0,27,3,0,True,162,134,3,62760,Dhananjaya de Silva,0,138
+0,28,11,0,True,168,145,3,102835,Dunith Wellalage,0,132
+0,29,4,0,True,174,149,3,62760,Dhananjaya de Silva,0,126
+0,30,5,1,True,180,154,4,102835,Dunith Wellalage,0,120
+0,31,2,0,True,186,156,4,78229,Charith Asalanka,0,114
+0,32,9,0,True,192,165,4,102835,Dunith Wellalage,0,108
+0,33,3,0,True,198,168,4,78229,Charith Asalanka,0,102
+0,34,2,0,True,204,170,4,102835,Dunith Wellalage,0,96
+0,35,1,1,True,210,171,5,78229,Charith Asalanka,0,90
+0,36,1,1,True,216,172,6,102835,Dunith Wellalage,0,84
+0,37,2,0,True,222,174,6,78229,Charith Asalanka,0,78
+0,38,1,0,True,228,175,6,62760,Dhananjaya de Silva,0,72
+0,39,3,1,True,234,178,7,78229,Charith Asalanka,0,66
+0,40,2,0,True,240,180,7,62760,Dhananjaya de Silva,0,60
+0,41,4,0,True,246,184,7,78229,Charith Asalanka,0,54
+0,42,2,0,True,252,186,7,101991,Maheesh Theekshana,0,48
+0,43,0,2,True,258,186,9,78229,Charith Asalanka,0,42
+0,44,4,0,True,264,190,9,101991,Maheesh Theekshana,0,36
+0,45,1,0,True,270,191,9,78229,Charith Asalanka,0,30
+0,46,3,0,True,276,194,9,101991,Maheesh Theekshana,0,24
+0,47,3,0,True,282,197,9,78229,Charith Asalanka,0,18
+0,48,11,0,True,288,208,9,101991,Maheesh Theekshana,0,12
+0,49,4,0,True,294,212,9,105938,Matheesha Pathirana,0,6
+0,50,1,1,False,294,213,10,101991,Maheesh Theekshana,0,0
+1,1,7,0,True,6,7,0,70640,Jasprit Bumrah,4.22,294
+1,2,0,0,True,12,7,0,87477,Mohammed Siraj,4.31,288
+1,3,0,1,True,18,7,1,70640,Jasprit Bumrah,4.4,282
+1,4,8,0,True,24,15,1,87477,Mohammed Siraj,4.32,276
+1,5,6,0,True,30,21,1,70640,Jasprit Bumrah,4.28,270
+1,6,0,0,True,36,21,1,87477,Mohammed Siraj,4.38,264
+1,7,4,1,True,42,25,2,70640,Jasprit Bumrah,4.39,258
+1,8,1,1,True,48,26,3,87477,Mohammed Siraj,4.47,252
+1,9,5,0,True,54,31,3,70640,Jasprit Bumrah,4.46,246
+1,10,8,0,True,60,39,3,87477,Mohammed Siraj,4.37,240
+1,11,3,0,True,66,42,3,70633,Hardik Pandya,4.41,234
+1,12,2,0,True,72,44,3,67609,Kuldeep Yadav,4.47,228
+1,13,3,0,True,78,47,3,49247,Ravindra Jadeja,4.51,222
+1,14,5,0,True,84,52,3,67609,Kuldeep Yadav,4.5,216
+1,15,4,0,True,90,56,3,49247,Ravindra Jadeja,4.51,210
+1,16,6,0,True,96,62,3,67609,Kuldeep Yadav,4.47,204
+1,17,5,0,True,102,67,3,49247,Ravindra Jadeja,4.45,198
+1,18,2,1,True,108,69,4,67609,Kuldeep Yadav,4.53,192
+1,19,4,0,True,114,73,4,49247,Ravindra Jadeja,4.54,186
+1,20,6,1,True,120,79,5,67609,Kuldeep Yadav,4.5,180
+1,21,1,0,True,126,80,5,67455,Axar Patel,4.62,174
+1,22,4,0,True,132,84,5,67609,Kuldeep Yadav,4.64,168
+1,23,9,0,True,138,93,5,67455,Axar Patel,4.48,162
+1,24,2,0,True,144,95,5,67609,Kuldeep Yadav,4.57,156
+1,25,4,0,True,150,99,5,67455,Axar Patel,4.6,150
+1,26,5,1,True,156,104,6,49247,Ravindra Jadeja,4.58,144
+1,27,4,0,True,162,108,6,67455,Axar Patel,4.6,138
+1,28,3,0,True,168,111,6,49247,Ravindra Jadeja,4.68,132
+1,29,11,0,True,174,122,6,67455,Axar Patel,4.38,126
+1,30,3,0,True,180,125,6,49247,Ravindra Jadeja,4.45,120
+1,31,8,0,True,186,133,6,67609,Kuldeep Yadav,4.26,114
+1,32,5,0,True,192,138,6,70640,Jasprit Bumrah,4.22,108
+1,33,10,0,True,198,148,6,67609,Kuldeep Yadav,3.88,102
+1,34,4,0,True,204,152,6,70640,Jasprit Bumrah,3.87,96
+1,35,2,0,True,210,154,6,70633,Hardik Pandya,4,90
+1,36,2,0,True,216,156,6,49247,Ravindra Jadeja,4.14,84
+1,37,1,0,True,222,157,6,70633,Hardik Pandya,4.38,78
+1,38,5,1,True,228,162,7,49247,Ravindra Jadeja,4.33,72
+1,39,6,0,True,234,168,7,70633,Hardik Pandya,4.18,66
+1,40,2,0,True,240,170,7,49247,Ravindra Jadeja,4.39,60
+1,41,2,1,True,246,172,8,70633,Hardik Pandya,4.66,54
+1,42,0,2,False,246,172,10,67609,Kuldeep Yadav,4.94,51
