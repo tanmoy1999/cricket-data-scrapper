@@ -43,21 +43,21 @@ def get_value(data, *keys, default=None):
         return data
     except (KeyError, TypeError):
         return default
-zip_files()
+
 if __name__ == "__main__":
   # zip_files("https://cricsheet.org/downloads/ipl_json.zip")
-  df = pd.DataFrame(columns=["match_date","event_matchnum","event_name","gender","match_type","official_match_referees","winner","by_runs","by_wickets","overs","player_of_match","season","team_type","team_1","team_2","toss_winner","toss_decision","venue","innings","team","over","batter","bowler","non_striker","legbyes","runs","extras","total"
-      ])
+  df = pd.DataFrame(columns=["match_date","event_matchnum","event_name","gender","match_type","official_match_referees","winner","by_runs","by_wickets","overs","player_of_match","season","team_type","team_1","team_2","toss_winner","toss_decision","venue","innings","team","over","batter","bowler","non_striker","legbyes","runs","extras","total","filename"])
 
   # Specify the folder path
-  folder_path = r"/content/unzipped_files"
+  folder_path = r"C:\Users\tanmo\Documents\cricket-data-scrapper\unzipped_files"
 
   filenames = os.listdir(folder_path)
   file_paths = [os.path.join(folder_path, filename) for filename in filenames]
 
 
   for file_path in file_paths:
-      print(file_path)
+      filename = file_path
+      print(filename)
       mem_used()
       
       
@@ -97,7 +97,7 @@ if __name__ == "__main__":
                   runs = get_value(data, 'innings', innings, 'overs', j,'deliveries',ball,'runs','batter')
                   extras = get_value(data, 'innings', innings, 'overs', j,'deliveries',ball,'runs','extras')
                   total = get_value(data, 'innings', innings, 'overs', j,'deliveries',ball,'runs','total')
-                  df2 = pd.DataFrame(data=[[match_date,event_matchnum,event_name,gender,match_type,official_match_referees,winner,by_runs,by_wickets,overs,player_of_match,season,team_type,team_1,team_2,toss_winner,toss_decision,venue,innings,team,over,batter,bowler,non_striker,legbyes,runs,extras,total]],columns=["match_date","event_matchnum","event_name","gender","match_type","official_match_referees","winner","by_runs","by_wickets","overs","player_of_match","season","team_type","team_1","team_2","toss_winner","toss_decision","venue","innings","team","over","batter","bowler","non_striker","legbyes","runs","extras","total"])
+                  df2 = pd.DataFrame(data=[[match_date,event_matchnum,event_name,gender,match_type,official_match_referees,winner,by_runs,by_wickets,overs,player_of_match,season,team_type,team_1,team_2,toss_winner,toss_decision,venue,innings,team,over,batter,bowler,non_striker,legbyes,runs,extras,total,filename]],columns=["match_date","event_matchnum","event_name","gender","match_type","official_match_referees","winner","by_runs","by_wickets","overs","player_of_match","season","team_type","team_1","team_2","toss_winner","toss_decision","venue","innings","team","over","batter","bowler","non_striker","legbyes","runs","extras","total","filename"])
                   df = pd.concat([df,df2], axis=0)
   df.to_excel('ipl_data.xlsx')
   df.to_csv('ipl_data.csv')

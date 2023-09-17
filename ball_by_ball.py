@@ -6,6 +6,7 @@ seriesId = '1388374'
 matchId = '1388412'
 
 url = 'https://hs-consumer-api.espncricinfo.com/v1/pages/match/overs/details?lang=en&seriesId=' + seriesId + '&matchId='+ matchId +'&mode=ALL'
+url = 'https://hs-consumer-api.espncricinfo.com/v1/pages/match/overs/details?lang=en&seriesId=1388374&matchId=1388414&mode=ALL'
 print(url)
 
 df_BB = pd.DataFrame(columns=["inningNumber","balls_id","overNumber","oversUnique","oversActual","ballNumber","totalRuns","batsmanRuns","isFour","isSix","isWicket","outPlayerId","dismissalType","byes","legbyes","wides","wagonX","wagonY","wagonZone","timestamp","batsmanPlayerId","bowlerPlayerId","totalInningRuns","totalInningWickets","batsmanStatText","bowlerStatText"])
@@ -50,4 +51,6 @@ if response.status_code == 200:
               except:
                   print(i,j,k)
                   pass
-df_BB.to_csv('ball_by_ball_indvban.csv',index=False)
+df_BB.to_csv('ball_by_ball_indvsl_final.csv',index=False)
+
+# Dismisal type 1 --> catch 2--> wicket 3 --> LBW
